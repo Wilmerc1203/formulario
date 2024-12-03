@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Centered Form</title>
+</head>
+<body>
+  <div class="container vh-100 d-flex justify-content-center align-items-center">
+    <form>
+      <div class="form-group">
+        <h1 class="text-center">Iniciar Sesion</h1>
+        <label for="exampleInputEmail1"></label>
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted"></small> <br>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Contraseña</label>
+        <input type="password" class="form-control" id="password" placeholder="Password">
+      </div> <br>
+      <button type="button" onclick="iniciar()" class="btn btn-primary">Iniciar Sesion</button> O
+      <a href="./registrar.html">Registrar</a>
+    </form>
+  </div>
+  <script src="inicio.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

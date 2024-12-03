@@ -8,5 +8,5 @@ nameUser.innerHTML = "Bienvenid@ " + `${nombre}`;  // Mostrar el nombre del usua
 function salir() {  
     const exit = confirm('¿Estás seguro de que deseas salir?');
   if (exit) {
-    window.location.href = 'iniciar.html'; // Redirige a la página de inicio de sesión
+    window.location.href = 'index.html'; // Redirige a la página de inicio de sesión
   }}

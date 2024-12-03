@@ -25,7 +25,7 @@ function RegistrarUsuario() {
   localStorage.setItem('user', JSON.stringify(user));
 
   alert('Usuario registrado exitosamente.');
-  window.location.replace('iniciar.html');  // Redirige al inicio de sesión
+  window.location.replace('index.html');  // Redirige al inicio de sesión
 }
 
 function validarEmail(email) {
